@@ -15,7 +15,7 @@
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 ![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat&logo=php&logoColor=white)
-![C#](https://img.shields.io/badge/C%23-.NET-512BD4?style=flat&logo=dotnet&logoColor=white)
+![C#](https://img.shields.io/badge/C%23%20%C2%B7%20.NET%2010-512BD4?style=flat&logo=dotnet&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white)
 ![C](https://img.shields.io/badge/C-A8B9CC?style=flat&logo=c&logoColor=black)
 ![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=flat&logo=laravel&logoColor=white)
@@ -33,13 +33,14 @@
 | Proyecto | Descripción | Stack |
 |---|---|---|
 | [mini-redis-c](https://github.com/jhonemmir/mini-redis-c) | Implementación de Redis en C puro. Servidor TCP concurrente con tabla hash propia, mutex y manejo manual de memoria. | C · pthreads |
+| [envparity](https://github.com/jhonemmir/envparity) | Herramienta .NET que valida .env contra .env.example en CI: detecta variables faltantes, vacías y sobrantes sin imprimir valores. | C# · .NET 10 · xUnit · GitHub Actions · NuGet |
 | [ExpenseAuditor](https://github.com/jhonemmir/ExpenseAuditor) | Sistema de auditoría financiera con OCR, detección de fraude por SHA-256, conversión multi-divisa y reportes Excel. | Python · FastAPI · Vue.js · Docker |
 | [inventory-microservices](https://github.com/jhonemmir/inventory-microservices) | Inventario con predicción de stock por IA. Arquitectura: Laravel + Python AI Worker + RabbitMQ + Redis. | PHP · Python · RabbitMQ · Redis |
-| [smart-receipt-bot](https://github.com/jhonemmir/smart-receipt-bot) *(WIP)* | Bot de Telegram que procesa fotos de facturas con OCR (Tesseract), extrae datos y gestiona gastos personales. | Laravel · Telegram API · Docker |
+| smart-receipt-bot *(WIP, privado)* | Bot de Telegram que procesa fotos de facturas con OCR (Tesseract), extrae datos y gestiona gastos personales. | Laravel · Telegram API · Docker |
 
 
 ### 📫 Contacto
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/emmir)
-[![Portafolio](https://img.shields.io/badge/Portafolio-111?style=flat&logo=githubpages&logoColor=white)](https://bit.ly/JhonDev)
+[![Portafolio](https://img.shields.io/badge/Portafolio-111?style=flat&logo=githubpages&logoColor=white)](https://portafolio-web-rho-ruddy.vercel.app/)
 [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=flat&logo=gmail&logoColor=white)](mailto:jhonemmir@gmail.com)
