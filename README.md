@@ -9,7 +9,7 @@
   Me interesa construir soluciones que resuelvan problemas reales — desde OCR e inteligencia artificial hasta servidores concurrentes en C puro.
 </p>
 
-> Mi proyecto más reciente es **flagpost**, una API de feature flags con SDK en C# y evaluación determinista compartida entre PHP y .NET.
+> Mi proyecto más reciente es **SlotLock**, un sistema de reservas donde la exclusión de solapamientos vive en PostgreSQL. También destaco **flagpost**, una API de feature flags con SDK en C# y evaluación determinista compartida entre PHP y .NET.
 
 ---
 
@@ -36,6 +36,7 @@
 
 | Proyecto | Descripción | Stack |
 |---|---|---|
+| [SlotLock](https://github.com/jhonemmir/SlotLock) · [demo](https://slotlock-demo.onrender.com/demo) | Sistema de reservas con concurrencia real: la exclusión de solapamientos vive en PostgreSQL (`EXCLUDE USING gist`), no en PHP. Holds con TTL, idempotencia, waitlist FIFO y prueba de carga k6 (100 concurrentes → 1×201 / 99×409). Demo Blade + HTMX desplegada en Render + Neon. | PHP · Laravel · PostgreSQL · Docker · HTMX · k6 · Render · GitHub Actions |
 | [flagpost](https://github.com/jhonemmir/flagpost) | API de feature flags con evaluación local y determinista. Contrato compartido PHP/C# (20 vectores + 30 casos), API Laravel/PostgreSQL desplegada en Fly.io y SDK .NET 8/10 publicado como [Flagpost.Client 1.0.0](https://www.nuget.org/packages/Flagpost.Client). | PHP · Laravel · C# · .NET 10 · PostgreSQL · Docker · Fly.io · GitHub Actions · NuGet |
 | [mini-redis-c](https://github.com/jhonemmir/mini-redis-c) | Implementación de Redis en C puro. Servidor TCP concurrente con tabla hash propia, mutex y manejo manual de memoria. | C · pthreads |
 | [envparity](https://github.com/jhonemmir/envparity) | Herramienta .NET que valida .env contra .env.example en CI: detecta variables faltantes, vacías y sobrantes sin imprimir valores. | C# · .NET 10 · xUnit · GitHub Actions · NuGet |
