@@ -9,6 +9,8 @@
   Me interesa construir soluciones que resuelvan problemas reales — desde OCR e inteligencia artificial hasta servidores concurrentes en C puro.
 </p>
 
+> Mi proyecto más reciente es **flagpost**, una API de feature flags con SDK en C# y evaluación determinista compartida entre PHP y .NET.
+
 ---
 
 ### 🛠️ Stack tecnológico
@@ -25,6 +27,8 @@
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat&logo=redis&logoColor=white)
 ![RabbitMQ](https://img.shields.io/badge/RabbitMQ-FF6600?style=flat&logo=rabbitmq&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat&logo=githubactions&logoColor=white)
+![NuGet](https://img.shields.io/badge/NuGet-004880?style=flat&logo=nuget&logoColor=white)
 
 ---
 
@@ -32,6 +36,7 @@
 
 | Proyecto | Descripción | Stack |
 |---|---|---|
+| [flagpost](https://github.com/jhonemmir/flagpost) | API de feature flags con evaluación local y determinista. Contrato compartido PHP/C# (20 vectores + 30 casos), API Laravel/PostgreSQL desplegada en Fly.io y SDK .NET 8/10 publicado como [Flagpost.Client 1.0.0](https://www.nuget.org/packages/Flagpost.Client). | PHP · Laravel · C# · .NET 10 · PostgreSQL · Docker · Fly.io · GitHub Actions · NuGet |
 | [mini-redis-c](https://github.com/jhonemmir/mini-redis-c) | Implementación de Redis en C puro. Servidor TCP concurrente con tabla hash propia, mutex y manejo manual de memoria. | C · pthreads |
 | [envparity](https://github.com/jhonemmir/envparity) | Herramienta .NET que valida .env contra .env.example en CI: detecta variables faltantes, vacías y sobrantes sin imprimir valores. | C# · .NET 10 · xUnit · GitHub Actions · NuGet |
 | [ExpenseAuditor](https://github.com/jhonemmir/ExpenseAuditor) | Sistema de auditoría financiera con OCR, detección de fraude por SHA-256, conversión multi-divisa y reportes Excel. | Python · FastAPI · Vue.js · Docker |
